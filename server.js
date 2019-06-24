@@ -21,7 +21,7 @@ mongoose
 
 requireDir('./src/models');
 
-// Rotas
+// Rotas go
 app.use('/api', require('./src/routes'));
 
 app.listen(process.env.PORT || 3000);
